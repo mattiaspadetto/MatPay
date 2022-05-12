@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    z-index: 100;
+    bottom: 32px;
+    margin: 0 5%;
+    width: 90%;
+    height: 56px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: var(--light-blue);
+    font-weight: 600;
+  }

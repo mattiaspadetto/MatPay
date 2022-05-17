@@ -4,7 +4,7 @@
     align-content: center;
     position: absolute;
     z-index: 100;
-    bottom: 32px;
+    bottom: 40px;
     margin: 0 5%;
     width: 90%;
     height: 56px;
@@ -12,7 +12,12 @@
     box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
     border-radius: 8px;
   }
-  
+
+  .navbar span {
+    flex-grow: 1;
+    text-align: center;
+  }
+
   .navbar a {
     text-decoration: none;
     color: var(--light-blue);

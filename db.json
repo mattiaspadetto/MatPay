@@ -1,0 +1,11 @@
+{
+  "dati": {
+    "user": "mattiaspadetto",
+    "psw": "ciao"
+  },
+  "carte": [
+    "card1",
+    "card2",
+    "card3"
+  ]
+}

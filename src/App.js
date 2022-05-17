@@ -5,12 +5,14 @@ import Movimenti from "./pages/movimenti";
 import Profilo from "./pages/profilo";
 import Wrapper from "./components/wrapper";
 import Login from "./pages/login";
+import Iscrizione from "./pages/iscrizione";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/iscriviti" element={<Iscrizione />} />
         <Route
           path="/home"
           element={

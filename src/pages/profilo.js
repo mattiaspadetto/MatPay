@@ -1,9 +1,9 @@
-import Navbar from "../components/navbar";
+import NavTitle from "../components/navTitle";
 
 export default function Profilo() {
   return (
-    <div className="home">
-      <h1>Profilo</h1>
+    <div className="wrapper">
+      <NavTitle title={"Profilo"}/>
     </div>
   );
 }

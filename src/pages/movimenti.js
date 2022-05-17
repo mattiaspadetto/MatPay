@@ -1,9 +1,9 @@
-import Navbar from "../components/navbar";
+import NavTitle from "../components/navTitle";
 
 export default function Movimenti() {
   return (
-    <div className="home">
-      <h1>Movimenti</h1>
+    <div className="wrapper">
+      <NavTitle title={"Movimenti"}/>
     </div>
   );
 }

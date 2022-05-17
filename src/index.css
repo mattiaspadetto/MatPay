@@ -26,6 +26,11 @@
   line-height: 20px;
   font-weight: 600;
 }
+.font-error {
+  text-align: left;
+  font-size: 14px;
+  color: red;
+}
 .logo {
   padding: 128px 0;
   display: flex;
@@ -33,4 +38,16 @@
   align-items: center;
   align-content: center;
   width: 100%;
+}
+.navTitle {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.navTitle span {
+  padding: 0 4px;
+}
+.wrapper {
+  padding: 48px 24px 0;
 }

@@ -12,6 +12,7 @@
 :root {
   --light-blue: #2D71F6;
   --blue: #4185F8;
+  --light-gray: rgba(0, 0, 0, 0.5);
 }
 
 .font-big {

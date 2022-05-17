@@ -19,7 +19,7 @@ export default function Iscrizione() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("http://localhost:3001/dati", {
+    fetch("http://localhost:3001/person", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(logData),

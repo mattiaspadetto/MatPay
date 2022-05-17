@@ -15,7 +15,7 @@ export default function Login() {
   }
 
   const { data, isLoaded, error, fetchAgain } = useFetch(
-    "http://localhost:3001/dati",
+    "https://d9b97390-c4ca-4503-831e-86a4d183f561.mock.pstmn.io/person",
     "GET"
   );
 

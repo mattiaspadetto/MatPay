@@ -5,7 +5,7 @@ import "../css/carousel.css";
 export default function CardCarousel() {
 
 const { data, isLoaded, error, fetchAgain } = useFetch(
-    "http://localhost:3001/carte",
+    "https://d9b97390-c4ca-4503-831e-86a4d183f561.mock.pstmn.io/carte",
     "GET"
     );
 

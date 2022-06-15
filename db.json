@@ -1,11 +1,88 @@
 {
   "person": {
-    "user": "mattia_spadetto",
-    "psw": "Unionforce99"
+    "user": "ciao",
+    "psw": "1234"
   },
   "carte": [
-    "card1",
-    "card2",
-    "card3"
+    {
+      "id": "01",
+      "name": "card1"
+    },
+    {
+      "id": "02",
+      "name": "card2"
+    }
+  ],
+  "transazioni": [
+    {
+      "carta": "card1",
+      "idTransazione": "001",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card2",
+      "idTransazione": "002",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card2",
+      "idTransazione": "003",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card1",
+      "idTransazione": "004",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card1",
+      "idTransazione": "005",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card2",
+      "idTransazione": "006",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card1",
+      "idTransazione": "007",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card2",
+      "idTransazione": "008",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card2",
+      "idTransazione": "009",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    },
+    {
+      "carta": "card2",
+      "idTransazione": "010",
+      "dataTransazione": "25/02/2022",
+      "luogoTransazione": "Cadoro SRL",
+      "importoTransazione": 199.99
+    }
   ]
 }

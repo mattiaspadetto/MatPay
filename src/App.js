@@ -6,26 +6,37 @@ import Profilo from "./pages/profilo";
 import Wrapper from "./components/wrapper";
 import Login from "./pages/login";
 import Iscrizione from "./pages/iscrizione";
+import { useFetch } from "./fetch";
+import { useState } from "react";
 
 export default function App() {
+  const [test, setTest] = useState();
+
+  const { data: dataTransazioni } = useFetch(
+    "http://localhost:3001/transazioni",
+    "GET"
+  );
+
+  const { data: dataPerson } = useFetch("http://localhost:3001/person", "GET");
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Login dataPerson={dataPerson} />} />
         <Route path="/iscriviti" element={<Iscrizione />} />
         <Route
           path="/home"
           element={
             <Wrapper>
-              <Home />
+              <Home dataUser={dataPerson} />
             </Wrapper>
           }
         />
         <Route
-          path="/movimenti"
+          path="/movimenti/:id"
           element={
             <Wrapper>
-              <Movimenti />
+              <Movimenti dataTran={dataTransazioni} />
             </Wrapper>
           }
         />

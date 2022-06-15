@@ -1,0 +1,11 @@
+.transaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.item-tran {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}

@@ -12,8 +12,9 @@
     justify-content: space-between;
     padding-bottom: 24px;
 }
-.addCardsIcon {
+.material-icons {
     filter: drop-shadow(0px 4px 12px rgba(44, 44, 44, 0.25));
+    color: white;
 }
 .card-informations {
     margin: 24px 0;

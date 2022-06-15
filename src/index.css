@@ -1,17 +1,17 @@
 * {
   margin: 0;
-  font-family: 'Mulish'
+  font-family: "Mulish";
 }
 
 #root {
-  background: linear-gradient(180deg, #2D71F7 0%, rgba(45, 186, 247, 0) 100%);
+  background: linear-gradient(180deg, #2d71f7 0%, rgba(45, 186, 247, 0) 100%);
   max-width: 100%;
   height: 100vh;
 }
 
 :root {
-  --light-blue: #2D71F6;
-  --blue: #4185F8;
+  --light-blue: #2d71f6;
+  --blue: #4185f8;
   --light-gray: rgba(0, 0, 0, 0.5);
 }
 
@@ -22,7 +22,6 @@
   font-weight: 800;
 }
 .font-normal {
-  text-align: center;
   font-size: 14px;
   line-height: 20px;
   font-weight: 600;
@@ -33,7 +32,7 @@
   color: red;
 }
 .logo {
-  padding: 128px 0;
+  padding: 64px 0;
   display: flex;
   flex-direction: column;
   align-items: center;

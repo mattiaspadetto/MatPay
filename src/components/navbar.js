@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useFetch } from "../fetch";
 
 export default function Navbar() {
   return (
@@ -7,7 +8,7 @@ export default function Navbar() {
         <Link to={"/home"}>Home</Link>
       </span>
       <span>
-        <Link to={"/movimenti"}>Movimenti</Link>
+        <Link to={`/movimenti/card1`}>Movimenti</Link>
       </span>
       <span>
         <Link to={"/profilo"}>Profilo</Link>

@@ -44,7 +44,7 @@ export default function App() {
           path="/profilo"
           element={
             <Wrapper>
-              <Profilo />
+              <Profilo dataUser={dataPerson} />
             </Wrapper>
           }
         />

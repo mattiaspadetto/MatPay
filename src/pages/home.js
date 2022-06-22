@@ -1,6 +1,5 @@
 import NavTitle from "../components/navTitle";
 import "../css/home.css";
-import { useFetch } from "../fetch";
 import CardCarousel from "../components/carousel";
 
 export default function Home({ dataUser }) {

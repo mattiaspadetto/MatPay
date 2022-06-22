@@ -1,0 +1,14 @@
+.headerProfile {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+  gap: 10px;
+}
+.contentProfile {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

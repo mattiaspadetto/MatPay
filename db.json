@@ -1,7 +1,7 @@
 {
   "person": {
-    "user": "ciao",
-    "psw": "1234"
+    "user": "mattiaspadetto",
+    "psw": "0000"
   },
   "carte": [
     {
@@ -39,36 +39,36 @@
       "carta": "card1",
       "idTransazione": "004",
       "dataTransazione": "25/02/2022",
-      "luogoTransazione": "Cadoro SRL",
-      "importoTransazione": 199.99
+      "luogoTransazione": "Mediaworld SRL",
+      "importoTransazione": 1499.97
     },
     {
       "carta": "card1",
       "idTransazione": "005",
-      "dataTransazione": "25/02/2022",
-      "luogoTransazione": "Cadoro SRL",
-      "importoTransazione": 199.99
+      "dataTransazione": "21/05/2022",
+      "luogoTransazione": "Mediaworld SRL",
+      "importoTransazione": 67.99
     },
     {
       "carta": "card2",
       "idTransazione": "006",
-      "dataTransazione": "25/02/2022",
-      "luogoTransazione": "Cadoro SRL",
-      "importoTransazione": 199.99
+      "dataTransazione": "13/04/2022",
+      "luogoTransazione": "Acqua & Sapone",
+      "importoTransazione": 29.97
     },
     {
       "carta": "card1",
       "idTransazione": "007",
       "dataTransazione": "25/02/2022",
-      "luogoTransazione": "Cadoro SRL",
-      "importoTransazione": 199.99
+      "luogoTransazione": "Interspar SRL",
+      "importoTransazione": 137.95
     },
     {
       "carta": "card2",
       "idTransazione": "008",
       "dataTransazione": "25/02/2022",
-      "luogoTransazione": "Cadoro SRL",
-      "importoTransazione": 199.99
+      "luogoTransazione": "Pull & Bear SRL",
+      "importoTransazione": 128.25
     },
     {
       "carta": "card2",

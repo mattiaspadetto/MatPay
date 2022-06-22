@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { useFetch } from "../fetch";
 
 export default function Navbar() {
   return (

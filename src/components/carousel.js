@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function CardCarousel() {
   const { data, isLoaded, error, fetchAgain } = useFetch(
-    "http://localhost:3001/carte",
+    "https://my-json-server.typicode.com/mattiaspadetto/matpay-server/carte",
     "GET"
   );
 

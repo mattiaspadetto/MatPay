@@ -9,8 +9,8 @@ export default function Iscrizione() {
   const [password, setPassword] = useState("");
   const logData = {
     user: user,
-    psw: password
-  }
+    psw: password,
+  };
 
   function validateForm() {
     return user.length > 0 && password.length > 0;
@@ -19,11 +19,14 @@ export default function Iscrizione() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("http://localhost:3001/person", {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify(logData),
-    })
+    fetch(
+      "https://my-json-server.typicode.com/mattiaspadetto/matpay-server/person",
+      {
+        method: "POST",
+        headers: { "Content-type": "application/json" },
+        body: JSON.stringify(logData),
+      }
+    )
       .then((response) => response.json())
       .then(() => {
         console.log("Success");

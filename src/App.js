@@ -13,11 +13,14 @@ export default function App() {
   const [test, setTest] = useState();
 
   const { data: dataTransazioni } = useFetch(
-    "http://localhost:3001/transazioni",
+    "https://my-json-server.typicode.com/mattiaspadetto/matpay-server/transazioni",
     "GET"
   );
 
-  const { data: dataPerson } = useFetch("http://localhost:3001/person", "GET");
+  const { data: dataPerson } = useFetch(
+    "https://my-json-server.typicode.com/mattiaspadetto/matpay-server/person",
+    "GET"
+  );
 
   return (
     <BrowserRouter>

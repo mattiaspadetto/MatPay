@@ -1,25 +1,25 @@
 .welcome-message {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 130px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130px;
 }
 .my-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
 }
 .material-icons {
-    filter: drop-shadow(0px 4px 12px rgba(44, 44, 44, 0.25));
-    color: white;
+  filter: drop-shadow(0px 4px 12px rgba(44, 44, 44, 0.25));
+  color: white;
 }
 .card-informations {
-    margin: 24px 0;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--light-gray);
+  margin: 18px 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--light-gray);
 }

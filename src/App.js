@@ -8,6 +8,7 @@ import Login from "./pages/login";
 import Iscrizione from "./pages/iscrizione";
 import { useFetch } from "./fetch";
 import { useState } from "react";
+import ProfiloCarta from "./pages/profiloCarta";
 
 export default function App() {
   const [test, setTest] = useState();
@@ -51,6 +52,7 @@ export default function App() {
             </Wrapper>
           }
         />
+        <Route path="/le-mie-carte" element={<ProfiloCarta />} />
       </Routes>
     </BrowserRouter>
   );
